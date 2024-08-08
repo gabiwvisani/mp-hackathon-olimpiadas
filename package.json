@@ -1,0 +1,19 @@
+{
+  "name": "mp-hackathon-olimpiadas",
+  "version": "1.0.0",
+  "description": "Nós disponibilizamos uma [API com os dados oficiais das Olimpíadas Paris 2024](https://docs.apis.codante.io/olympic-games) e agora é com você!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabiwvisani/mp-hackathon-olimpiadas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabiwvisani/mp-hackathon-olimpiadas/issues"
+  },
+  "homepage": "https://github.com/gabiwvisani/mp-hackathon-olimpiadas#readme"
+}
