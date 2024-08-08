@@ -1,0 +1,65 @@
+/* MedalRanking.css */
+.medal-ranking {
+    padding: 20px;
+    max-width: 1200px; /* Define um max-width para telas maiores */
+    margin: auto; /* Centraliza a página */
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--background-color); /* Branco Neve */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  table img {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 30px; /* Tamanho fixo para as bandeiras */
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .medal-ranking {
+      padding: 10px;
+    }
+  
+    table {
+      font-size: 14px; /* Reduz o tamanho da fonte para dispositivos móveis */
+    }
+  
+    table th, table td {
+      padding: 8px; /* Reduz o padding para dispositivos móveis */
+    }
+  
+    table img {
+      width: 20px; /* Reduz o tamanho das bandeiras em dispositivos móveis */
+    }
+  }
+  

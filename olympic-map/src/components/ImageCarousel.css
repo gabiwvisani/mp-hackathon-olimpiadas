@@ -1,0 +1,34 @@
+.carousel-container {
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-container img {
+   /* max-width: 100%;*/
+   width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    color: var(--primary-color); /* Cinza Escuro */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 28px;
+    color: var(--primary-color); /* Cinza Escuro */
+  }
+  

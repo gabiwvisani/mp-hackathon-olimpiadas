@@ -1,0 +1,87 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* Paleta de Cores */
+:root {
+  --primary-color: #5a5b5f; /* Cinza Escuro */
+  --secondary-color: #f0f1f6; /* Cinza Claro Neutro */
+  --background-color: #ffffff; /* Branco Neve */
+  --highlight-color: #c0b7d4; /* Lilás Claro */
+  --warning-color: #134183; /* blue */
+  --text-color: #2e2e2e; /* Cinza Profundo */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--secondary-color); /* Cinza Claro Neutro */
+  color: var(--text-color); /* Cinza Profundo */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background: var(--primary-color); /* Cinza Escuro */
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--background-color); /* Branco Neve */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color); /* Cinza Profundo */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+
+
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+ 
+}
